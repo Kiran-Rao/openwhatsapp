@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        openWhatsappButton = this.findViewById(R.id.open_whatsapp_button);
+        openWhatsappButton = findViewById(R.id.open_whatsapp_button);
         openWhatsappButton.setOnClickListener {
             openWhatsApp("4155551234")
         }
