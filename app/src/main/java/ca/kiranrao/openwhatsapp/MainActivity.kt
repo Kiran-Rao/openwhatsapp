@@ -16,14 +16,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         openWhatsappButton = findViewById(R.id.open_whatsapp_button);
         openWhatsappButton.setOnClickListener {
-            openWhatsApp("4155551234")
+            WhatsAppServices.openWhatsAppDefault(this)
         }
     }
 
-    private fun openWhatsApp(phone: String) {
-        val url = "https://api.whatsapp.com/send?phone=$phone"
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(url)
-        startActivity(i)
-    }
+
 }

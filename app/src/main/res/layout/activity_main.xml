@@ -10,10 +10,19 @@
         android:id="@+id/open_whatsapp_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Open WhatsApp"
+        android:text="Test Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="This app opens sms messages in whatsapp.\n\nIf you're having trouble, feel free to uninstall this."
+        app:layout_constraintBottom_toTopOf="@id/open_whatsapp_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
