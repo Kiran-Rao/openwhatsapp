@@ -10,8 +10,7 @@ There's no way to uninstall the VoIP app.
 So instead of giving up and buying a new tablet or paying for an unnecessary service, I hacked together this project. 
 
 ## How it works
-This uses the Andorid intent infrastructure.
-It conforms to SMS Default Handler: https://developer.android.com/guide/topics/permissions/default-handlers
+openwhatsapp conforms to SMS Default Handler: https://developer.android.com/guide/topics/permissions/default-handlers
 
 I then set openwhatsapp as the default SMS App.
 Now instead of launching the preinstalled VoIP app, it will
