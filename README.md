@@ -18,6 +18,7 @@ Now instead of launching the preinstalled VoIP app, it will
 1. Extract the phone number 
 1. Attempt to open Whatsapp to the conversation associated with the number 
 1. If no number, fall back to opening whatsapp
+1. Finish() the openwhatsapp activity. We no longer need it. 
 
 ## License 
 The source code is licensed under MIT License. 
