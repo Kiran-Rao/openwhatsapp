@@ -1,5 +1,5 @@
-# openwhatsapp
-Open SMS intent to Whatsapp
+# Open SMS in WhatsApp
+Open SMS Message Intent to Whatsapp
 
 ## Background
 My grandmother's primary method of communication is a cheap Android tablet.
